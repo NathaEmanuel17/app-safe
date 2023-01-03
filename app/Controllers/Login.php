@@ -15,6 +15,5 @@ class Login extends BaseController
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
 
-        
     }
 }
